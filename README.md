@@ -7,14 +7,12 @@ Abonnierbarer Apple-Kalender fuer die wiederkehrenden Routine-Anker:
 - Schlafziel: Handy weg
 - Wochenplanung + Einkaufsliste
 
-## GitHub Pages
+## Kalender abonnieren
 
-Nach dem Push in ein oeffentliches GitHub-Repo GitHub Pages fuer den Branch `main` und den Ordner `/` aktivieren.
-
-Die Kalender-URL hat danach dieses Muster:
+Die abonnierbare Kalender-URL ist:
 
 ```text
-https://USERNAME.github.io/REPOSITORY/routine-basics.ics
+https://raw.githubusercontent.com/marlonwinter-art/routine-calendar/main/routine-basics.ics
 ```
 
 Diese URL am iPhone abonnieren:
@@ -25,4 +23,4 @@ Kalender -> Kalender -> Kalender hinzufuegen -> Kalenderabonnement hinzufuegen
 
 ## Updates
 
-Wenn sich Zeiten oder Termine aendern, `routine-basics.ics` aktualisieren und nach GitHub pushen. Das iPhone aktualisiert abonnierte Kalender automatisch, meistens mit etwas Verzoegerung.
+Wenn sich Zeiten oder Termine aendern, `routine-basics.ics` aktualisieren und nach GitHub pushen. Das iPhone aktualisiert abonnierte Kalender automatisch, meistens mit etwas Verzoegerung. GitHub cached Raw-Dateien kurzzeitig, normalerweise bis zu ein paar Minuten.
